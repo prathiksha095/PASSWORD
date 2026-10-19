@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.password-box {
+    display: flex;
+    gap: 5px;
+}
+
+.password-box input {
+    flex: 1;
+    min-width: 0;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #dddddd;
+    cursor: pointer;
+}
+
+.strength-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.progress {
+    height: 8px;
+    background-color: #dddddd;
+    margin-top: 8px;
+}
+
+#strengthBar {
+    height: 100%;
+    width: 0%;
+    background-color: green;
+}
+
+h3 {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.requirements {
+    list-style: none;
+    padding-left: 0;
+}
+
+.requirements li {
+    margin: 10px 0;
+    font-size: 14px;
+    color: red;
+}
+
+.requirements li.valid {
+    color: green;
+}
+
+#matchMessage {
+    font-size: 14px;
+}
+
+.reset {
+    width: 100%;
+    margin-top: 15px;
+    background-color: #dddddd;
+    border: 1px solid #aaaaaa;
+}
+
+.footer {
+    text-align: center;
+    color: #777777;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+@media (max-width: 450px) {
+    .container {
+        margin: 10px auto;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
